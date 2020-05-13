@@ -7,7 +7,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
-    "build:libs": "ng-packagr -p libs/reusable/package.json",
+    "build:libs": "ng-packagr -p libs/mylib/package.json",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
@@ -41,10 +41,12 @@
     "@nrwl/angular": "9.2.4",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.901.0",
+    "@angular-devkit/build-ng-packagr": "~0.901.0",
     "@angular/cli": "9.1.0",
     "@angular/compiler-cli": "^9.1.0",
     "@angular/language-service": "^9.1.0",

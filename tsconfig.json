@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@cdo-poc/data": ["libs/data/src/index.ts"],
-      "@cdo-poc/reusable": ["libs/reusable/src/index.ts"]
+      "@cdo-poc/reusable": ["libs/reusable/src/index.ts"],
+      "@cdo-poc/mylib": ["libs/mylib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

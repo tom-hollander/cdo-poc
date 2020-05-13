@@ -31,6 +31,9 @@
     },
     "reusable": {
       "tags": []
+    },
+    "mylib": {
+      "tags": []
     }
   }
 }
