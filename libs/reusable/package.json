@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@cdo/reusable",
+  "version": "1.0.0",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./src/index.ts"
+    },
+    "dest": "@cdo/reusable"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@cdo/reusable",
+  "version": "1.0.0",
+  "main": "bundles/cdo-reusable.umd.js",
+  "module": "fesm5/cdo-reusable.js",
+  "es2015": "fesm2015/cdo-reusable.js",
+  "esm5": "esm5/cdo-reusable.js",
+  "esm2015": "esm2015/cdo-reusable.js",
+  "fesm5": "fesm5/cdo-reusable.js",
+  "fesm2015": "fesm2015/cdo-reusable.js",
+  "typings": "cdo-reusable.d.ts",
+  "metadata": "cdo-reusable.metadata.json",
+  "sideEffects": false,
+  "peerDependencies": {
+    "tslib": "^1.10.0"
+  }
+}
