@@ -10,6 +10,14 @@
     "@angular-devkit/core" "9.1.0"
     rxjs "6.5.4"
 
+"@angular-devkit/architect@0.901.12":
+  version "0.901.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.901.12.tgz#e0f78b7282f851d27af6802dc7a261022421b2d5"
+  integrity sha512-gLlsxa+3JPV1m1gRvRMujOs4xKox6I5BkYmOD1zfu+dB6y3LuBAvHfXA6FaTDVOMBrmSlWnE4PmOmB6xd7wxMA==
+  dependencies:
+    "@angular-devkit/core" "9.1.12"
+    rxjs "6.5.4"
+
 "@angular-devkit/architect@~0.901.0":
   version "0.901.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.901.5.tgz#148940d87bd6b4c09ca3aaba7f5cae4e11e44a94"
@@ -85,6 +93,14 @@
     webpack-subresource-integrity "1.4.0"
     worker-plugin "4.0.2"
 
+"@angular-devkit/build-ng-packagr@~0.901.0":
+  version "0.901.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-ng-packagr/-/build-ng-packagr-0.901.12.tgz#f467a26e0fe8d4dc32c30e0bf4a69447c8bd9d8e"
+  integrity sha512-NUMm1j9kFDw3Kx8ICKL4ncoYpazbXPFgWsjYHdNWHYUAn0HMJCfxn7jtI7lhFROiNjjlPSlXpjo+EwjhIueWlg==
+  dependencies:
+    "@angular-devkit/architect" "0.901.12"
+    rxjs "6.5.4"
+
 "@angular-devkit/build-optimizer@0.901.0":
   version "0.901.0"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-optimizer/-/build-optimizer-0.901.0.tgz#6e6262294a74de9ab2e87fd05951dc080ec12f4a"
@@ -111,6 +127,17 @@
   integrity sha512-vHTsrB4JaVUQ95FRnKrgo79Y3F6FokImrZdrmwkQmwAThpjXeXmpUEKZS+ZSTFRgesjiIysVGOFijARP4BQ7Bg==
   dependencies:
     ajv "6.12.0"
+    fast-json-stable-stringify "2.1.0"
+    magic-string "0.25.7"
+    rxjs "6.5.4"
+    source-map "0.7.3"
+
+"@angular-devkit/core@9.1.12":
+  version "9.1.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-9.1.12.tgz#7cebce51918fe7f3462d8c58c9fbd5a3e2c3b3e7"
+  integrity sha512-D/GnBeSlmdgGn7EhuE32HuPuRAjvUuxi7Q6WywBI8PSsXKAGnrypghBwMATNnOA24//CgbW2533Y9VWHaeXdeA==
+  dependencies:
+    ajv "6.12.3"
     fast-json-stable-stringify "2.1.0"
     magic-string "0.25.7"
     rxjs "6.5.4"
@@ -2074,6 +2101,16 @@ ajv@6.12.0:
   version "6.12.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.0.tgz#06d60b96d87b8454a5adaba86e7854da629db4b7"
   integrity sha512-D6gFiFA0RRLyUbvijN74DWAjXSFxWKaWP7mldxkVhyhAV3+SWA9HEJPHQ2c9soIeTFJqcSdFDGFgdqs1iUU2Hw==
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@6.12.3:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
+  integrity sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -4473,9 +4510,9 @@ eventemitter2@4.1.2:
   integrity sha1-DhqEd6+CGm7zmVsxG/dMI6UkfxU=
 
 eventemitter3@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
-  integrity sha512-rlaVLnVxtxvoyLsQQFBx53YmXHDxRIzzTLbdfxqi4yocpSjAxXwkU0cScM5JgSKMqEhrZpnvQ2D9gjylR0AimQ==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -4872,11 +4909,9 @@ follow-redirects@1.5.10:
     debug "=3.1.0"
 
 follow-redirects@^1.0.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
-  integrity sha512-KZm0V+ll8PfBrKwMzdo5D13b1bur9Iq9Zd/RMmAoQQcl2PxxFml8cxXPaaPYVbV0RjNjq1CU7zIzAOqtUPudmA==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -5412,9 +5447,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
